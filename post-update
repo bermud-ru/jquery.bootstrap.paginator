@@ -1,0 +1,5 @@
+#!/bin/sh
+
+echo "Post-update scripting ..."
+mkdir -p ./js/jquery/
+cp ./vendor/bermud-ru/jquery.bootstrap.paginator/build/jquery.bootstrap.paginator.min.js ./js/jquery/
