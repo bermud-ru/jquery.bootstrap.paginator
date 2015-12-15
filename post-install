@@ -3,3 +3,11 @@
 echo "Post-install scripting ..."
 mkdir -p ./js/jquery/
 cp ./vendor/bermud-ru/jquery.bootstrap.paginator/build/jquery.bootstrap.paginator.min.js ./js/jquery/
+read -p 'R u want install example[Y/n]: ' answer
+case "${answer}" in
+    [yY]|[yY][eE][sS])
+        echo "Example for jquery.bootstrap.paginator"
+        mkdir -p ./js/jquery/example
+        cp ./vendor/bermud-ru/jquery.bootstrap.paginator/example/index.html ./js/jquery/example
+        ;;
+esac
