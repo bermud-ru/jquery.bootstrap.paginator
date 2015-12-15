@@ -6,7 +6,7 @@ cp ./vendor/bermud-ru/jquery.bootstrap.paginator/build/jquery.bootstrap.paginato
 read -p 'R u want install example[Y/n]: ' answer
 case "${answer}" in
     [yY]|[yY][eE][sS])
-        echo "Example for jquery.bootstrap.paginator"
+        echo "Example for jquery.bootstrap.paginator plugin"
         mkdir -p ./js/jquery/example
         cp ./vendor/bermud-ru/jquery.bootstrap.paginator/example/index.html ./js/jquery/example
         ;;
