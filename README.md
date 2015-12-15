@@ -14,7 +14,7 @@ example
     <script type="text/javascript"
             src="http://netdna.bootstrapcdn.com/twitter-bootstrap/3.3.1/js/bootstrap.min.js" charset="UTF-8"></script>
     <script type="text/javascript"
-            src="../build/jquery.bootstrap.paginator.min.js" charset="UTF-8"></script>
+            src="https://github.com/bermud-ru/jquery.bootstrap.paginator/blob/master/build/jquery.bootstrap.paginator.min.js" charset="UTF-8"></script>
     <style>
         .im-centered { margin: auto; max-width:32em;}
     </style>
