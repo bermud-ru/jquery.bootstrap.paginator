@@ -1,6 +1,6 @@
 /**
  * @module jquery.bootstrap.paginator.js
- * jQuery лагин bootstrapPaginator
+ * jQuery плагин bootstrapPaginator
  * @author Андрей Новиков <andrey@novikov.be>
  * @data 14/10/2015
  */
